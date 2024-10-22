@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_portfolio/res/constants.dart';
 
 class MyPortfolioText extends StatelessWidget {
   const MyPortfolioText({super.key, required this.start, required this.end});
@@ -11,9 +12,9 @@ class MyPortfolioText extends StatelessWidget {
         tween: Tween(begin: start, end: end),
         duration: const Duration(milliseconds: 200),
         builder: (context, value, child) {
-          return Text('My Personal Portfolio',
+          return Text('Vijay Malethia',
               style: Theme.of(context).textTheme.headlineLarge!.copyWith(
-                  color: Colors.white,
+                  color: primaryColor,
                   fontWeight: FontWeight.w900,
                   height: 0,
                   fontSize: value));

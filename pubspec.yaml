@@ -41,6 +41,7 @@ dependencies:
   photo_view: ^0.14.0
   url_launcher: ^6.1.12
   font_awesome_flutter: ^10.5.0
+  video_player: ^2.9.2
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +69,7 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
+    - assets/video/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
