@@ -1,4 +1,3 @@
-import 'dart:io' as io;
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/view%20model/controller.dart';
 // import 'package:flutter_portfolio/res/constants.dart';
