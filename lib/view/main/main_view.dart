@@ -60,7 +60,7 @@ class _MainViewState extends State<MainView> {
             ),
           // Overlay UI components
           Container(
-            color: Colors.black54,
+            color: Colors.black.withOpacity(0.7),
             child: Column(
               children: [
                 const SizedBox(
