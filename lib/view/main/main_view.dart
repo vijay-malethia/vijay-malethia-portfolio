@@ -28,9 +28,12 @@ class _MainViewState extends State<MainView> {
     _controller = VideoPlayerController.networkUrl(Uri.parse(
         'https://www.nhanngyn.tech/static/media/second.3208149c92992855c4ad.mp4'))
       ..initialize().then((_) {
+        _controller.setVolume(0);
         _controller.setLooping(true);
         _controller.play();
         setState(() {});
+      }).catchError((error) {
+        debugPrint('Error initializing video: $error');
       });
   }
 

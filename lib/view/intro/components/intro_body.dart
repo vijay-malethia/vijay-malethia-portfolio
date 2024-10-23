@@ -7,6 +7,7 @@ import 'combine_subtitle.dart';
 import 'description_text.dart';
 import 'download_button.dart';
 import 'headline_text.dart';
+
 class IntroBody extends StatelessWidget {
   const IntroBody({super.key});
   @override
@@ -64,9 +65,9 @@ class IntroBody extends StatelessWidget {
             ],
           ),
         ),
-        const Spacer(),
-        if (Responsive.isDesktop(context)) const AnimatedImageContainer(),
-        const Spacer()
+        // const Spacer(),
+        // if (Responsive.isDesktop(context)) const AnimatedImageContainer(),
+        // const Spacer()
       ],
     );
   }
