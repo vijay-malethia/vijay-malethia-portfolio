@@ -53,20 +53,20 @@ class AnimatedDescriptionText extends StatelessWidget {
                 text: "based in ",
               ),
               TextSpan(
-                text: "India ",
+                text: "India, ",
                 style: GoogleFonts.poppins(
                   color: primaryColor,
                   fontSize: value,
                 ),
               ),
               const TextSpan(
-                text: "based in India, helping clients bring their ideas ",
+                text: "helping clients bring their ideas ",
               ),
               if (!Responsive.isLargeMobile(context))
                 const TextSpan(text: '\n'),
               const TextSpan(text: "to life by creating seamless"),
               TextSpan(
-                text: " mobile applications ",
+                text: " mobile applications",
                 style: GoogleFonts.poppins(
                   color: primaryColor,
                   fontSize: value,
