@@ -40,7 +40,11 @@ class AnimatedDescriptionText extends StatelessWidget {
           TextSpan(
             text: "I'm a ",
             style: GoogleFonts.poppins(
-                color: Colors.white, wordSpacing: 2, fontSize: value),
+                color: Colors.white,
+                wordSpacing: 2,
+                letterSpacing: 0.2,
+                height: 2,
+                fontSize: value + 1),
             children: [
               TextSpan(
                 text: 'Flutter developer ', // Word to style
